@@ -1,0 +1,175 @@
+name: Archive URL
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: "URL to archive"
+        required: true
+        type: string
+      institution:
+        description: "Institution or source name"
+        required: false
+        type: string
+      wayback_url:
+        description: "Existing Wayback Machine snapshot URL (optional)"
+        required: false
+        type: string
+      note:
+        description: "Short note about what the archive demonstrates"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install capture tools
+        run: |
+          npm install --no-save single-file-cli playwright
+          npx playwright install --with-deps chromium
+
+      - name: Prepare archive path
+        id: prep
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+        run: |
+          set -euo pipefail
+          DATE_PATH="$(date -u +'%Y/%m/%d')"
+          STAMP="$(date -u +'%Y%m%dT%H%M%SZ')"
+          HOST="$(node -e 'const u=new URL(process.env.TARGET_URL); console.log(u.hostname.replace(/[^a-zA-Z0-9.-]/g,"_"))')"
+          OUT="archives/${DATE_PATH}/${HOST}/${STAMP}"
+          mkdir -p "${OUT}"
+          echo "out=${OUT}" >> "${GITHUB_OUTPUT}"
+          echo "stamp=${STAMP}" >> "${GITHUB_OUTPUT}"
+
+      - name: Capture SingleFile HTML
+        id: singlefile
+        continue-on-error: true
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          OUT: ${{ steps.prep.outputs.out }}
+        run: |
+          npx single-file "${TARGET_URL}" "${OUT}/page.html"
+
+      - name: Capture full-page screenshot
+        id: screenshot
+        continue-on-error: true
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          OUT: ${{ steps.prep.outputs.out }}
+        run: |
+          cat > /tmp/capture.mjs <<'EOF'
+          import { chromium } from "playwright";
+
+          const browser = await chromium.launch({ headless: true });
+          const page = await browser.newPage({ viewport: { width: 1440, height: 1200 } });
+          await page.goto(process.env.TARGET_URL, {
+            waitUntil: "domcontentloaded",
+            timeout: 90000
+          });
+          await page.waitForTimeout(5000);
+          await page.screenshot({
+            path: process.env.OUT + "/screenshot.png",
+            fullPage: true
+          });
+          await browser.close();
+          EOF
+          node /tmp/capture.mjs
+
+      - name: Save raw HTML fallback
+        id: rawhtml
+        continue-on-error: true
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          OUT: ${{ steps.prep.outputs.out }}
+        run: |
+          curl -L --fail --retry 2 --max-time 90 \
+            -A "Mozilla/5.0 (compatible; Library-inclusion-records archival capture)" \
+            "${TARGET_URL}" -o "${OUT}/raw.html"
+
+      - name: Write metadata
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          INSTITUTION: ${{ inputs.institution }}
+          WAYBACK_URL: ${{ inputs.wayback_url }}
+          NOTE: ${{ inputs.note }}
+          OUT: ${{ steps.prep.outputs.out }}
+          STAMP: ${{ steps.prep.outputs.stamp }}
+          SINGLEFILE_STATUS: ${{ steps.singlefile.outcome }}
+          SCREENSHOT_STATUS: ${{ steps.screenshot.outcome }}
+          RAWHTML_STATUS: ${{ steps.rawhtml.outcome }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          TRIGGERING_COMMIT: ${{ github.sha }}
+        run: |
+          node <<'EOF'
+          import fs from "node:fs";
+
+          const metadata = {
+            captured_at_utc: new Date().toISOString(),
+            source_url: process.env.TARGET_URL,
+            institution: process.env.INSTITUTION || null,
+            wayback_url: process.env.WAYBACK_URL || null,
+            note: process.env.NOTE || null,
+            capture_id: process.env.STAMP,
+            capture_results: {
+              singlefile_html: process.env.SINGLEFILE_STATUS,
+              screenshot: process.env.SCREENSHOT_STATUS,
+              raw_html: process.env.RAWHTML_STATUS
+            },
+            github: {
+              repository: process.env.GITHUB_REPOSITORY,
+              workflow_run: process.env.RUN_URL,
+              triggering_commit: process.env.TRIGGERING_COMMIT
+            }
+          };
+
+          fs.writeFileSync(
+            process.env.OUT + "/metadata.json",
+            JSON.stringify(metadata, null, 2) + "\n"
+          );
+          EOF
+
+      - name: Generate SHA-256 checksums
+        shell: bash
+        env:
+          OUT: ${{ steps.prep.outputs.out }}
+        run: |
+          cd "${OUT}"
+          find . -maxdepth 1 -type f ! -name SHA256SUMS -print0 \
+            | sort -z \
+            | xargs -0 sha256sum > SHA256SUMS
+
+      - name: Commit archive
+        shell: bash
+        env:
+          TARGET_URL: ${{ inputs.url }}
+          OUT: ${{ steps.prep.outputs.out }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "${OUT}"
+          if git diff --cached --quiet; then
+            echo "No archive files were created."
+            exit 1
+          fi
+          git commit -m "Archive ${TARGET_URL}"
+          git push
