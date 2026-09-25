@@ -41,16 +41,16 @@ The public catalogue record shows:
 
 - Catalogue record: https://netbiblio.bibliothek.li/NetBiblio/search/notice?noticeNr=536932
 
-## Archival evidence
+## Archived evidence
 
-Because automated access to the catalogue may be restricted, the catalogue page was independently captured on 2026-09-25 in WACZ format and as a PDF snapshot.
+Because automated access to the catalogue may be restricted, the catalogue page was independently captured on 2026-09-25 and the original evidence files are preserved directly in this repository:
 
+- **WACZ capture:** [catalogue-capture.wacz](evidence/catalogue-capture.wacz)
+- **PDF snapshot:** [catalogue-record.pdf](evidence/catalogue-record.pdf)
+- **Capture manifest:** [capture-manifest.json](evidence/capture-manifest.json)
 - **WACZ capture time:** 2026-09-25T12:02:05.943Z
 - **WACZ SHA-256:** `8e53fb8b7f224dbcc28ce6349e0080716cf4484c2a960846bdb75a72f3ca6263`
 - **PDF snapshot SHA-256:** `c5d55ef6aeb06351c77dce6c8a8e0721c86ede94fbe82cb65fe9cb99f46bf92c`
-- **Capture manifest:** [capture-manifest.json](evidence/capture-manifest.json)
-
-The source capture files are retained by the author.
 
 ## Institutional confirmation
 
@@ -63,7 +63,8 @@ Direct confirmation that the e-book was added to the collection was provided by 
 - Liechtensteinische Landesbibliothek holding: **Confirmed**
 - Liechtenstein-Institut holding: **Confirmed**
 - Bibliographic metadata and ISBN: **Confirmed**
-- Archived catalogue capture: **Confirmed**
+- WACZ archival capture preserved in repository: **Confirmed**
+- PDF archival snapshot preserved in repository: **Confirmed**
 
 ## Scope
 

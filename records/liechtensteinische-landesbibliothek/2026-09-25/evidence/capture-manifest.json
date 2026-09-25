@@ -3,15 +3,17 @@
   "notice_number": 536932,
   "capture_date": "2026-09-25",
   "wacz": {
-    "file_name": "my-archiving-session.wacz",
+    "file_name": "catalogue-capture.wacz",
+    "repository_path": "records/liechtensteinische-landesbibliothek/2026-09-25/evidence/catalogue-capture.wacz",
     "captured_at_utc": "2026-09-25T12:02:05.943Z",
     "sha256": "8e53fb8b7f224dbcc28ce6349e0080716cf4484c2a960846bdb75a72f3ca6263",
-    "retained_by_author": true
+    "preserved_in_repository": true
   },
   "pdf_snapshot": {
-    "file_name": "How small can a State be before it stops working_ _ What Liechtenstein reveals about Sovereignty, Scale, and Institutional Resilience _ Johnny Kao - Liechtensteinische Landesbibliothek-20260925.pdf",
+    "file_name": "catalogue-record.pdf",
+    "repository_path": "records/liechtensteinische-landesbibliothek/2026-09-25/evidence/catalogue-record.pdf",
     "sha256": "c5d55ef6aeb06351c77dce6c8a8e0721c86ede94fbe82cb65fe9cb99f46bf92c",
-    "retained_by_author": true
+    "preserved_in_repository": true
   },
   "captured_page": {
     "title": "How small can a State be before it stops working? : What Liechtenstein reveals about Sovereignty, Scale, and Institutional Resilience / Johnny Kao - Liechtensteinische Landesbibliothek",

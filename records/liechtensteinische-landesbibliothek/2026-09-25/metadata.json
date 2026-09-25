@@ -35,10 +35,15 @@
     "liechtensteinische_landesbibliothek_holding": true,
     "liechtenstein_institut_holding": true,
     "archived_catalogue_capture": true,
+    "wacz_preserved_in_repository": true,
+    "pdf_snapshot_preserved_in_repository": true,
     "direct_institutional_confirmation_retained_privately": true
   },
   "public_sources": {
-    "catalogue_record": "https://netbiblio.bibliothek.li/NetBiblio/search/notice?noticeNr=536932"
+    "catalogue_record": "https://netbiblio.bibliothek.li/NetBiblio/search/notice?noticeNr=536932",
+    "repository_wacz": "evidence/catalogue-capture.wacz",
+    "repository_pdf": "evidence/catalogue-record.pdf",
+    "capture_manifest": "evidence/capture-manifest.json"
   },
   "maintained_by": "Johnny Kao"
 }
