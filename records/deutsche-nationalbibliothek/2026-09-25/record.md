@@ -1,55 +1,64 @@
-# Deutsche Nationalbibliothek — Collection Scope Confirmation and Catalogue Inclusion
+# Deutsche Nationalbibliothek — Catalogue and Archive Record
 
 **Record date:** 2026-09-25  
 **Institution:** Deutsche Nationalbibliothek (German National Library)  
-**Publication:** German-language e-book by Johnny Kao (see the linked DNB catalogue record)  
-**Evidence type:** National-library collection-scope determination + catalogue inclusion  
+**Publication:** *Wie Sie die Kontrolle behalten, wenn KI die Arbeit übernimmt: Ein praktischer Rahmen für Delegation, Urteilsvermögen und Verantwortung*  
+**Author:** Johnny Kao  
+**Translator:** Johnny Kao  
+**Publication year:** 2026  
+**Format:** Online resource (EPUB)  
+**ISBN:** 978-626-01-7196-4  
+**DNB record:** https://d-nb.info/1418258148  
+**Persistent identifier:** urn:nbn:de:101:1-2609021402567.656125617088  
 
 ## Status
 
-**The Deutsche Nationalbibliothek confirmed that the e-book falls within its collection remit (Sammelgebiet), enabled submission through its online deposit system, and the work is now represented by a public bibliographic record in the DNB catalogue.**
+**Catalogued by the Deutsche Nationalbibliothek and preserved as an online resource with a DNB archive object.**
+
+## Public bibliographic record
+
+The Deutsche Nationalbibliothek record identifies the publication as:
+
+- **Title:** *Wie Sie die Kontrolle behalten, wenn KI die Arbeit übernimmt: Ein praktischer Rahmen für Delegation, Urteilsvermögen und Verantwortung*
+- **Author:** Johnny Kao
+- **Translator:** Johnny Kao
+- **Publisher:** Beitou District, Taipei City : Johnny Kao
+- **Publication year:** 2026
+- **Format:** Online resource (EPUB)
+- **ISBN:** 978-626-01-7196-4
+- **Language:** German
+- **DDC:** 658.3
+- **Subject group:** 650 Management
+- **DNB persistent record:** https://d-nb.info/1418258148
+- **URN:** https://nbn-resolving.org/urn:nbn:de:101:1-2609021402567.656125617088
+- **Archive object:** https://d-nb.info/1418258148/34
 
 ## Public evidence
 
-- DNB catalogue record: https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0
+- Permanent DNB record: https://d-nb.info/1418258148
+- DNB catalogue view: https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0
 - Internet Archive snapshot: https://web.archive.org/web/20260925114932/https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0
 - Wayback timestamp: 2026-09-25 11:49:32 UTC
 
-## Institutional confirmation
-
-The DNB first clarified that a German-language e-book published by an author or self-publisher based outside Germany falls within the Deutsche Nationalbibliothek's collection remit and may be submitted on a voluntary basis.
-
-After reviewing the publication information for this specific e-book, the DNB then confirmed that **the e-book falls within its collection remit** and requested its submission through the DNB online portal. The author's account was enabled for submission of online publications.
-
-The underlying correspondence is retained privately by the author and is **not published in this repository**.
-
 ## Evidence classification
 
-- German-language publication within DNB collection remit: **Confirmed**
-- Publication-specific collection-scope determination: **Confirmed**
-- Online submission eligibility: **Confirmed**
-- DNB deposit account enabled: **Confirmed**
-- Public DNB catalogue record: **Confirmed**
+- DNB bibliographic record: **Confirmed**
 - Catalogue inclusion: **Confirmed**
-
-## Interpretation
-
-This is stronger than a simple external-resource listing. The record reflects both:
-
-1. an explicit collection-scope decision by the German National Library concerning the publication; and
-2. a subsequent public bibliographic record in the DNB catalogue.
-
-Because the submission was described by DNB as voluntary for this category, this record does **not** characterize the deposit as a compulsory legal-deposit obligation.
+- Persistent DNB identifier: **Confirmed**
+- National Bibliography Number (URN): **Confirmed**
+- Archived online resource: **Confirmed**
+- Archive object available through DNB record: **Confirmed**
 
 ## Preservation
 
-This record combines:
+This record is supported by:
 
-1. direct institutional confirmation retained privately by the author;
-2. the DNB's live public catalogue record;
-3. an independent Internet Archive snapshot; and
-4. this GitHub evidence record.
+1. the Deutsche Nationalbibliothek permanent bibliographic record;
+2. the DNB-assigned persistent URN;
+3. the DNB archive-object link;
+4. an independent Internet Archive snapshot; and
+5. this GitHub evidence record.
 
 ## Scope
 
-This record documents collection-scope determination, submission eligibility, and catalogue inclusion by the Deutsche Nationalbibliothek. It does not imply endorsement of the author's views, institutional affiliation, or academic peer review.
+This record documents catalogue and archive inclusion by the Deutsche Nationalbibliothek. It does not imply endorsement of the author's views, institutional affiliation, or academic peer review.
