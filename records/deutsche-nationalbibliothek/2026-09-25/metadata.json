@@ -1,0 +1,30 @@
+{
+  "record_date": "2026-09-25",
+  "institution": {
+    "name": "Deutsche Nationalbibliothek",
+    "english_name": "German National Library",
+    "country": "Germany"
+  },
+  "publication": {
+    "author": "Johnny Kao",
+    "language": "German",
+    "title": null,
+    "title_note": "Refer to the linked DNB catalogue record; title not duplicated here without independent verification."
+  },
+  "evidence": {
+    "collection_scope_determination": true,
+    "publication_specific_scope_confirmation": true,
+    "voluntary_online_submission_eligible": true,
+    "deposit_account_enabled": true,
+    "public_catalogue_record": true,
+    "catalogue_inclusion": true,
+    "compulsory_legal_deposit_asserted": false,
+    "institutional_confirmation_retained_privately": true
+  },
+  "public_sources": {
+    "dnb_catalogue_record": "https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0",
+    "wayback_snapshot": "https://web.archive.org/web/20260925114932/https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0",
+    "wayback_timestamp_utc": "2026-09-25T11:49:32Z"
+  },
+  "maintained_by": "Johnny Kao"
+}
