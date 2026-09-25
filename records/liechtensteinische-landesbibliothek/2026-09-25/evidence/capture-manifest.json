@@ -1,0 +1,29 @@
+{
+  "source_url": "https://netbiblio.bibliothek.li/NetBiblio/search/notice?noticeNr=536932",
+  "notice_number": 536932,
+  "capture_date": "2026-09-25",
+  "wacz": {
+    "file_name": "my-archiving-session.wacz",
+    "captured_at_utc": "2026-09-25T12:02:05.943Z",
+    "sha256": "8e53fb8b7f224dbcc28ce6349e0080716cf4484c2a960846bdb75a72f3ca6263",
+    "retained_by_author": true
+  },
+  "pdf_snapshot": {
+    "file_name": "How small can a State be before it stops working_ _ What Liechtenstein reveals about Sovereignty, Scale, and Institutional Resilience _ Johnny Kao - Liechtensteinische Landesbibliothek-20260925.pdf",
+    "sha256": "c5d55ef6aeb06351c77dce6c8a8e0721c86ede94fbe82cb65fe9cb99f46bf92c",
+    "retained_by_author": true
+  },
+  "captured_page": {
+    "title": "How small can a State be before it stops working? : What Liechtenstein reveals about Sovereignty, Scale, and Institutional Resilience / Johnny Kao - Liechtensteinische Landesbibliothek",
+    "isbn": "9786260172053",
+    "format": "E-Book",
+    "topic": "Politik",
+    "topical_subject": "Souveränität",
+    "geographic_subject": "Liechtenstein",
+    "language": "english",
+    "holdings": [
+      "Liechtenstein-Institut — Online — nur intern — Benutzung vor Ort",
+      "Liechtensteinische Landesbibliothek — Benutzung vor Ort"
+    ]
+  }
+}
