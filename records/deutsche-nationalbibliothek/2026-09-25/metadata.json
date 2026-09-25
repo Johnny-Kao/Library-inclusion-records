@@ -6,23 +6,34 @@
     "country": "Germany"
   },
   "publication": {
+    "title": "Wie Sie die Kontrolle behalten, wenn KI die Arbeit übernimmt: Ein praktischer Rahmen für Delegation, Urteilsvermögen und Verantwortung",
     "author": "Johnny Kao",
+    "translator": "Johnny Kao",
+    "publisher": "Beitou District, Taipei City : Johnny Kao",
+    "publication_year": 2026,
+    "format": "Online resource (EPUB)",
+    "isbn": "978-626-01-7196-4",
     "language": "German",
-    "title": null,
-    "title_note": "Refer to the linked DNB catalogue record; title not duplicated here without independent verification."
+    "ddc": "658.3",
+    "subject_group": "650 Management"
+  },
+  "identifiers": {
+    "dnb_id": "1418258148",
+    "dnb_record": "https://d-nb.info/1418258148",
+    "urn": "urn:nbn:de:101:1-2609021402567.656125617088",
+    "urn_url": "https://nbn-resolving.org/urn:nbn:de:101:1-2609021402567.656125617088"
   },
   "evidence": {
-    "collection_scope_determination": true,
-    "publication_specific_scope_confirmation": true,
-    "voluntary_online_submission_eligible": true,
-    "deposit_account_enabled": true,
-    "public_catalogue_record": true,
+    "public_bibliographic_record": true,
     "catalogue_inclusion": true,
-    "compulsory_legal_deposit_asserted": false,
-    "institutional_confirmation_retained_privately": true
+    "persistent_identifier": true,
+    "archived_online_resource": true,
+    "archive_object_available": true
   },
   "public_sources": {
-    "dnb_catalogue_record": "https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0",
+    "dnb_record": "https://d-nb.info/1418258148",
+    "dnb_catalogue_view": "https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0",
+    "dnb_archive_object": "https://d-nb.info/1418258148/34",
     "wayback_snapshot": "https://web.archive.org/web/20260925114932/https://portal.dnb.de/opac/showFullRecord?currentResultId=%22Johnny%22+and+%22Kao%22%26any&currentPosition=0",
     "wayback_timestamp_utc": "2026-09-25T11:49:32Z"
   },
