@@ -1,0 +1,26 @@
+{
+  "record_date": "2026-09-25",
+  "institution": "University of Cambridge Libraries & Archives",
+  "publication": {
+    "title": "How Small Can a State Be Before It Stops Working?: What Liechtenstein Reveals About Sovereignty, Scale, and Institutional Resilience",
+    "author": "Johnny Kao",
+    "isbn": "979-8-182-80019-8",
+    "doi": "10.5281/zenodo.22938612",
+    "zenodo_url": "https://zenodo.org/records/22938612"
+  },
+  "evidence": {
+    "accepted_digital_donation": true,
+    "institutional_resource_inclusion": true,
+    "placement": "Free individual titles > Arts, Humanities & Social Sciences",
+    "intended_audience": "Cambridge students and staff",
+    "idiscover_catalogue_record_asserted": false,
+    "institutional_confirmation_date": "2026-09-25",
+    "institutional_confirmation_retained_privately": true
+  },
+  "public_sources": {
+    "live_page": "https://libguides.cam.ac.uk/cambridgeebooks/free",
+    "wayback_snapshot": "https://web.archive.org/web/20260925111719/https://libguides.cam.ac.uk/cambridgeebooks/free",
+    "wayback_timestamp_utc": "2026-09-25T11:17:19Z"
+  },
+  "maintained_by": "Johnny Kao"
+}
