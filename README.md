@@ -1,5 +1,7 @@
 # Library Inclusion Records
 
+For adding or updating records, follow [CONTRIBUTING_RECORDS.md](CONTRIBUTING_RECORDS.md).
+
 Public evidence archive documenting the institutional acceptance, catalogue inclusion, and resource inclusion of publications by **Johnny Kao**.
 
 The purpose of this repository is to preserve durable, independently checkable records when a library or academic institution accepts, catalogues, or formally includes a publication in one of its discovery or access channels.
