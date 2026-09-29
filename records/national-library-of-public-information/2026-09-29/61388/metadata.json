@@ -1,0 +1,48 @@
+{
+  "record_date": "2026-09-29",
+  "institution": {
+    "name": "National Library of Public Information",
+    "local_name": "國立公共資訊圖書館",
+    "country": "Taiwan",
+    "platform": "National Library of Public Information eBook Service Platform"
+  },
+  "publication": {
+    "title": "How to stay in control when AI does the work : a practical framework for delegation, judgment, and accountability",
+    "author_as_listed_by_nlpi": "高晟軒",
+    "publisher_as_listed_by_nlpi": "Johnny Kao",
+    "publication_year": 2026,
+    "format": "EPUB",
+    "isbn": "9786260171575",
+    "call_number": "354",
+    "subjects": [
+      "人工智慧",
+      "商業管理"
+    ]
+  },
+  "platform_record": {
+    "book_id": 61388,
+    "url": "https://ebook.nlpi.edu.tw/book/61388"
+  },
+  "lending_at_capture": {
+    "authorization_source": "全國公共圖書館(國資圖)",
+    "object_type": "Epub流式",
+    "licensed_total": 3,
+    "available": 2,
+    "captured_at_utc": "2026-09-29T12:15:05.294Z"
+  },
+  "evidence": {
+    "public_platform_record": true,
+    "institutional_ebook_platform_inclusion": true,
+    "lending_availability_confirmed_at_capture": true,
+    "three_licensed_copies_listed_at_capture": true,
+    "wacz_preserved_in_repository": true,
+    "pdf_snapshot_preserved_in_repository": true
+  },
+  "public_sources": {
+    "live_record": "https://ebook.nlpi.edu.tw/book/61388",
+    "repository_wacz": "evidence/platform-capture.wacz",
+    "repository_pdf": "evidence/platform-record.pdf",
+    "capture_manifest": "evidence/capture-manifest.json"
+  },
+  "maintained_by": "Johnny Kao"
+}

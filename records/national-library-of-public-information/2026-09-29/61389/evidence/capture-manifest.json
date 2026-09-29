@@ -1,0 +1,40 @@
+{
+  "source_url": "https://ebook.nlpi.edu.tw/book/61389",
+  "institution": "National Library of Public Information",
+  "platform": "National Library of Public Information eBook Service Platform",
+  "book_id": 61389,
+  "capture_date": "2026-09-29",
+  "wacz": {
+    "file_name": "platform-capture.wacz",
+    "repository_path": "records/national-library-of-public-information/2026-09-29/61389/evidence/platform-capture.wacz",
+    "captured_at_utc": "2026-09-29T12:15:26.191Z",
+    "sha256": "3b16c48c7c4c8ba319a5166c1222c1d7faace47b9fc6c976ad665e00737ee036",
+    "wacz_version": "1.1.1",
+    "software": "Webrecorder ArchiveWeb.page 0.17.1, using warcio.js 2.4.12",
+    "preserved_in_repository": true
+  },
+  "pdf_snapshot": {
+    "file_name": "platform-record.pdf",
+    "repository_path": "records/national-library-of-public-information/2026-09-29/61389/evidence/platform-record.pdf",
+    "sha256": "9b7632b082f9ee474a29c35a889e9026decff5391e2025af7a8c3f923a57bee8",
+    "preserved_in_repository": true
+  },
+  "captured_page": {
+    "title": "Farming the impossible : how AI is expanding what agriculture can do",
+    "author_as_listed": "高晟軒",
+    "publisher_as_listed": "Johnny Kao",
+    "publication_year": 2026,
+    "format": "EPUB",
+    "isbn": "9786260171582",
+    "call_number": "630",
+    "subjects": [
+      "人工智慧",
+      "農業",
+      "自動化"
+    ],
+    "authorization_source": "全國公共圖書館(國資圖)",
+    "object_type": "Epub流式",
+    "licensed_total": 3,
+    "available_at_capture": 1
+  }
+}

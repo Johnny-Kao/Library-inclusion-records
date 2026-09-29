@@ -1,0 +1,51 @@
+{
+  "record_date": "2026-09-29",
+  "institution": {
+    "name": "National Library of Public Information",
+    "local_name": "國立公共資訊圖書館",
+    "country": "Taiwan",
+    "platform": "National Library of Public Information eBook Service Platform"
+  },
+  "publication": {
+    "title": "一個國家, 可以少掉多少東西? : 列支敦士登告訴我們, 主權真正需要的是什麼",
+    "author_as_listed_by_nlpi": "高晟軒",
+    "publisher_as_listed_by_nlpi": "高晟軒",
+    "publication_year": 2026,
+    "format": "EPUB",
+    "isbn": "9786260172206",
+    "call_number": "571.16",
+    "subjects": [
+      "主權",
+      "政治制度",
+      "國際關係",
+      "地緣政治",
+      "政治經濟"
+    ]
+  },
+  "platform_record": {
+    "book_id": 61390,
+    "url": "https://ebook.nlpi.edu.tw/book/61390"
+  },
+  "lending_at_capture": {
+    "authorization_source": "全國公共圖書館(國資圖)",
+    "object_type": "Epub流式",
+    "licensed_total": 3,
+    "available": 2,
+    "captured_at_utc": "2026-09-29T12:14:50.126Z"
+  },
+  "evidence": {
+    "public_platform_record": true,
+    "institutional_ebook_platform_inclusion": true,
+    "lending_availability_confirmed_at_capture": true,
+    "three_licensed_copies_listed_at_capture": true,
+    "wacz_preserved_in_repository": true,
+    "pdf_snapshot_preserved_in_repository": true
+  },
+  "public_sources": {
+    "live_record": "https://ebook.nlpi.edu.tw/book/61390",
+    "repository_wacz": "evidence/platform-capture.wacz",
+    "repository_pdf": "evidence/platform-record.pdf",
+    "capture_manifest": "evidence/capture-manifest.json"
+  },
+  "maintained_by": "Johnny Kao"
+}
