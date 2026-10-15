@@ -1,0 +1,11 @@
+{
+  "evidence_type": "Redacted excerpt of institutional receipt acknowledgement",
+  "document_date": "2026-09-29",
+  "institution": "National Library of Mauritius",
+  "source": "Institutional correspondence retained privately by the author",
+  "filename": "receipt-acknowledgement-redacted.pdf",
+  "sha256": "1554115d9266cf9b71c163b08493c0d07208d90704fc80481311a06cb61f64c6",
+  "bytes": 111776,
+  "redaction_note": "Gmail interface heading, message-routing contact details, tracking URL and antivirus footer removed; institutional letter body, date, reference, titles, signatory and acknowledgement retained.",
+  "scope": "Receipt acknowledgment and contribution to collection; no confirmed catalogue entry"
+}
