@@ -1,0 +1,25 @@
+{
+  "source_url": "https://opac.sbn.it/en/risultati-ricerca-avanzata/-/opac-adv/index/1/ITICCURAV2229525?fieldvalue%5B1%5D=Johnny+Kao&fieldaccess%5B1%5D=Autore%3A1003%3Anocheck&fieldstruct%5B1%5D=ricerca.parole_tutte%3A4%3D6&struct%3A1001=ricerca.parole_almeno_una%3A%40or%40",
+  "capture_timestamp_utc": "2026-10-15T10:35:43.153Z",
+  "archive_created_utc": "2026-09-25T12:01:55.487Z",
+  "archive_modified_utc": "2026-10-15T10:36:02.113Z",
+  "capture_software": "Webrecorder ArchiveWeb.page 0.17.1, using warcio.js 2.4.12",
+  "sbn_bid": "RAV2229525",
+  "captured_page_title": "Search results - OPAC SBN",
+  "capture_scope": "OPAC SBN bibliographic record and San Marino library listing; the Scoprirete local record was not separately captured in this WACZ",
+  "files": [
+    {
+      "filename": "catalogue-capture.wacz",
+      "sha256": "7599f406df6ec3ecd083f283fb6798743eff0f074c34e0bdc99a1af813b67aef",
+      "bytes": 4562334,
+      "repository_path": "records/biblioteca-di-stato-san-marino/2026-10-15/RAV2229525/evidence/catalogue-capture.wacz"
+    },
+    {
+      "filename": "catalogue-record.pdf",
+      "sha256": "00b04df9007c1619f66ac5140b92270a034bcebd6d7720ab6659ea74933199b1",
+      "bytes": 361211,
+      "repository_path": "records/biblioteca-di-stato-san-marino/2026-10-15/RAV2229525/evidence/catalogue-record.pdf"
+    }
+  ],
+  "privacy_note": "Private institutional email not included in repository"
+}
