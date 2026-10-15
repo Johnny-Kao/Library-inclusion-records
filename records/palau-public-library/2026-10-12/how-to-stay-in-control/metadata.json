@@ -1,0 +1,39 @@
+{
+  "record_date": "2026-10-12",
+  "institution": {
+    "name": "Palau Public Library",
+    "country": "Palau"
+  },
+  "publication": {
+    "title": "How to Stay in Control When AI Does the Work",
+    "author": "Johnny Kao",
+    "language": "English",
+    "donated_formats": [
+      "PDF",
+      "EPUB"
+    ],
+    "bibliographic_reference": "https://www.amazon.com/dp/B0HG7XV4Q3"
+  },
+  "institutional_action": {
+    "type": [
+      "accepted_digital_donation",
+      "collection_inclusion"
+    ],
+    "donation_sent_date": "2026-10-01",
+    "acceptance_confirmed_date": "2026-10-12",
+    "confirmation": "Direct written correspondence held privately by author"
+  },
+  "cataloguing": {
+    "digital_donation_catalogue_records_maintained": false,
+    "printed_copy_cataloguing": "planned_not_verified",
+    "union_catalogue_url": null,
+    "public_catalogue_record_status": "pending"
+  },
+  "evidence": {
+    "private_institutional_correspondence": true,
+    "private_correspondence_published": false,
+    "public_library_catalogue_url": null,
+    "repository_archived_evidence": []
+  },
+  "scope": "One of three titles included under a single institutional confirmation; no public catalogue or physical-copy completion claim."
+}
