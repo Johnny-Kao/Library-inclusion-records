@@ -1,0 +1,28 @@
+{
+  "record_date": "2026-09-29",
+  "institution": {
+    "name": "National Library of Mauritius",
+    "country": "Mauritius",
+    "correspondence_reference": "NL/ADM/7/002V4"
+  },
+  "publication": {
+    "title": "How Small Can a State Be Before It Stops Working? What Liechtenstein Reveals About Sovereignty, Scale, and Institutional Resilience",
+    "author": "Johnny Kao",
+    "isbn13": "9786260172053",
+    "donated_format": "PDF",
+    "language": "English"
+  },
+  "status": {
+    "offer_accepted_date": "2026-09-14",
+    "pdf_sent_date": "2026-09-16",
+    "formal_receipt_acknowledgement_date": "2026-09-29",
+    "collection_contribution_acknowledged": true,
+    "public_catalogue_status": "not_verified",
+    "public_access": "not_established"
+  },
+  "evidence": {
+    "published_pdf": "../evidence/receipt-acknowledgement-redacted.pdf",
+    "manifest": "../evidence/capture-manifest.json",
+    "private_correspondence_not_published": true
+  }
+}
