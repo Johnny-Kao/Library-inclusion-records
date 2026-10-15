@@ -1,0 +1,36 @@
+{
+  "record_date": "2026-10-08",
+  "institution": {
+    "name": "Biblioteca Nacional de Portugal",
+    "country": "Portugal"
+  },
+  "publication": {
+    "title": "The Portugal Question: Can a Small European Economy Turn Openness into Lasting Prosperity?",
+    "author": "Johnny Kao",
+    "language": "English",
+    "edition": "First edition",
+    "publication_date": "2026-10",
+    "donated_format": "PDF",
+    "official_isbn": "9786260174767",
+    "initial_proposal_isbn": "9798330275519",
+    "isbn_note": "Initial proposal used a different ISBN; author confirms 978-626-017-476-7 is the official ISBN of the delivered edition. Equivalence between identifiers not asserted."
+  },
+  "institutional_actions": {
+    "offer_date": "2026-09-30",
+    "acceptance_date": "2026-10-02",
+    "pdf_sent_date": "2026-10-08",
+    "receipt_confirmed_date": "2026-10-08",
+    "bibliographic_processing": "forwarding_promised_completion_unverified",
+    "digital_archiving": "library_intent_stated_completion_unverified"
+  },
+  "catalogue": {
+    "public_record_status": "pending",
+    "public_url": null,
+    "catalogue_identifier": null
+  },
+  "evidence": {
+    "private_institutional_correspondence_retained": true,
+    "private_correspondence_published": false,
+    "repository_public_capture_files": []
+  }
+}
