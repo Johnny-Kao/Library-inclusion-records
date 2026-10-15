@@ -1,0 +1,37 @@
+{
+  "record_date": "2026-10-15",
+  "institution": {
+    "name": "Biblioteca di Stato e Beni Librari della Repubblica di San Marino",
+    "country": "San Marino",
+    "sbn_holding_code": "EX0030"
+  },
+  "publication": {
+    "title": "How Small Can a State Be Before It Stops Working? What Liechtenstein Reveals About Sovereignty, Scale, and Institutional Resilience",
+    "author": "Johnny Kao",
+    "language": "en",
+    "isbn": "9786260172053",
+    "publication_year": 2026
+  },
+  "status": {
+    "donation_accepted": "2026-09-28",
+    "inventoried_and_catalogued_confirmed": "2026-10-15",
+    "confirmation_source": "Institutional email retained privately"
+  },
+  "identifiers": {
+    "sbn_bid": "RAV2229525",
+    "sbn": "IT\\ICCU\\RAV\\2229525",
+    "local_catalogue_record": "RAV03256129"
+  },
+  "public_sources": {
+    "opac_sbn": "https://opac.sbn.it/en/risultati-ricerca-avanzata/-/opac-adv/index/1/ITICCURAV2229525?fieldvalue%5B1%5D=Johnny+Kao&fieldaccess%5B1%5D=Autore%3A1003%3Anocheck&fieldstruct%5B1%5D=ricerca.parole_tutte%3A4%3D6&struct%3A1001=ricerca.parole_almeno_una%3A%40or%40",
+    "scoprirete_local": "https://scoprirete.bibliotecheromagna.it/opac/resource/how-small-can-a-state-be-before-it-stops-working-what-liechtenstein-in-reveals-about-sovereugnty-sca/RAV03256129",
+    "scoprirete_bid_search": "https://scoprirete.bibliotecheromagna.it/opac/.do?q=BID:RAV2229525"
+  },
+  "evidence": {
+    "wacz": "evidence/catalogue-capture.wacz",
+    "pdf": "evidence/catalogue-record.pdf",
+    "manifest": "evidence/capture-manifest.json",
+    "private_email_excluded": true
+  },
+  "scope_note": "Two catalogue interfaces for one institutional inclusion, not two independent holdings"
+}
