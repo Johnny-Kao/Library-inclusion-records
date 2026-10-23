@@ -1,0 +1,38 @@
+{
+  "record_date": "2026-10-23",
+  "institution": {
+    "name": "National Library of Korea",
+    "local_name": "국립중앙도서관",
+    "country": "South Korea"
+  },
+  "publication": {
+    "title": "한국은 AI로 강해진다. 그런데 우리는? 반도체·재벌·일자리, 그리고 우리 세대의 기회",
+    "author": "Johnny Kao",
+    "publication_date": "2026-09-24",
+    "publication_date_basis": "Author's donation email",
+    "format": "EPUB",
+    "isbn": "979-8-1827-9767-2",
+    "isbn_basis": "Author's donation email",
+    "language": "Korean"
+  },
+  "identifiers": {
+    "library_search_id": "CNTS-00135614954"
+  },
+  "evidence": {
+    "digital_donation_submitted": true,
+    "consent_form_submitted": true,
+    "online_availability_confirmed_by_institution": true,
+    "confirmation_date": "2026-10-23",
+    "public_search_url_provided_by_institution": true,
+    "public_page_contents_independently_verified": false,
+    "private_correspondence_retained_by_author": true,
+    "repository_binary_evidence": false
+  },
+  "public_sources": {
+    "official_search_url": "https://www.nl.go.kr/NL/contents/search.do?kwd=CNTS-00135614954&insiteschStr=#!",
+    "wayback_url": "https://web.archive.org/web/20261023104119/https://www.nl.go.kr/NL/contents/search.do?kwd=CNTS-00135614954&insiteschStr=#!",
+    "wayback_timestamp_from_url_utc": "2026-10-23T10:41:19Z",
+    "wayback_contents_verified": false
+  },
+  "maintained_by": "Johnny Kao"
+}
