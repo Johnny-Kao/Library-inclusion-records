@@ -5,7 +5,7 @@
 **Deposit service:** e-Helvetica Deposit  
 **Publication:** *Room to Reconsider: Swiss Family Wealth Across Capital, Governance, and Succession*  
 **Author:** Johnny Kao (listed as Kao Johnny in the deposit confirmation)  
-**Editor:** Moe Jia (listed as Jia Moe in the deposit confirmation)  
+**Editor:** Jia Moe (as listed in the deposit confirmation)  
 **Publisher:** Kenji Kano (Tokyo, Japan)  
 **Publication year:** 2026  
 **Edition statement:** Swiss Edition  
