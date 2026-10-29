@@ -1,0 +1,47 @@
+{
+  "record_date": "2026-10-29",
+  "institution": {
+    "name": "Swiss National Library",
+    "country": "Switzerland",
+    "deposit_service": "e-Helvetica Deposit",
+    "service_url": "https://www.deposit.e-helvetica.nb.admin.ch/"
+  },
+  "publication": {
+    "title": "Room to Reconsider",
+    "subtitle": "Swiss Family Wealth Across Capital, Governance, and Succession",
+    "author": "Johnny Kao",
+    "editor": "Moe Jia",
+    "publisher": "Kenji Kano",
+    "publisher_city": "Tokyo",
+    "publisher_country": "Japan",
+    "publication_year": 2026,
+    "edition": "Swiss Edition",
+    "language": "English",
+    "deposited_format": "EPUB",
+    "thematic_group": "330 Economics",
+    "depositor_selected_access_rights": "Freely accessible",
+    "bibliographic_reference": "https://www.amazon.com/dp/B0HPP9V554",
+    "amazon_asin": "B0HPP9V554"
+  },
+  "institutional_action": {
+    "type": "accepted_digital_deposit",
+    "confirmation_date": "2026-10-29",
+    "processing": "in_progress",
+    "future_collection_integration": "stated_by_institution_completion_unverified"
+  },
+  "catalogue": {
+    "title_specific_public_record_url": null,
+    "persistent_identifier": null,
+    "public_catalogue_inclusion": "not_yet_verified",
+    "completed_collection_integration": "not_yet_verified",
+    "public_full_text_access": "not_yet_verified"
+  },
+  "evidence": {
+    "private_institutional_correspondence_retained": true,
+    "private_correspondence_published": false,
+    "public_title_specific_institutional_evidence_url": null,
+    "public_capture_files": [],
+    "bibliographic_reference_is_institutional_evidence": false
+  },
+  "scope": "Institutional acceptance of an EPUB deposit confirmed; catalogue inclusion and public digital access not yet verified."
+}
