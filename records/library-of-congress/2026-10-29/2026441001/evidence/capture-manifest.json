@@ -1,0 +1,26 @@
+{
+  "description": "Preserved print-to-PDF copy of the official Library of Congress catalogue webpage for LCCN 2026441001",
+  "source_url": "https://search.catalog.loc.gov/instances/649b5251-5fe1-4e28-ba28-10b4eaa396a7?option=lccn&query=2026441001",
+  "original_file_name": "How Small Can a State Be Before It Stops Working_ _ what Liechtenstein reveals about sovereignty, scale, and institutional resilience _ Johnny Kao - Record details - Library of Congress Catalog.pdf",
+  "stored_file_name": "catalogue-record.pdf",
+  "repository_path": "records/library-of-congress/2026-10-29/2026441001/evidence/catalogue-record.pdf",
+  "source_type": "Official Library of Congress catalogue webpage printed to PDF",
+  "observed_document_print_date": "2026-10-30",
+  "file_size_bytes": 134626,
+  "sha256": "311a8e9a22cf88ad998d2c0caedbba0c602cd222f326c36fef606a985f8f7472",
+  "preserved_in_repository": true,
+  "public_wayback_url": "https://web.archive.org/web/20261029153528/https://search.catalog.loc.gov/instances/649b5251-5fe1-4e28-ba28-10b4eaa396a7?option=lccn&query=2026441001",
+  "wayback_timestamp_in_supplied_url": "20261029153528",
+  "identity_facts": {
+    "lccn": "2026441001",
+    "isbn13": "9786260172053",
+    "author": "Johnny Kao",
+    "title": "How Small Can a State Be Before It Stops Working?",
+    "access_restrictions": "Restricted online access"
+  },
+  "caveats": [
+    "The PDF is a copy of the LoC catalogue page, not the deposited book.",
+    "The archive URL's timestamp is not treated as the book's original catalogue creation date.",
+    "No full-text public access is claimed."
+  ]
+}
