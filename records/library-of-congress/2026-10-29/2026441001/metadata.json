@@ -1,0 +1,61 @@
+{
+  "record_date": "2026-10-29",
+  "record_date_basis": "date embedded in author-supplied Internet Archive catalogue snapshot URL; not claimed as original cataloguing date",
+  "institution": {
+    "name": "Library of Congress",
+    "country": "United States"
+  },
+  "publication": {
+    "title": "How Small Can a State Be Before It Stops Working?",
+    "subtitle": "What Liechtenstein Reveals About Sovereignty, Scale, and Institutional Resilience",
+    "author": "Johnny Kao",
+    "publisher": "Johnny Kao",
+    "publication_place": "Tokyo",
+    "year": 2026,
+    "edition": "First edition",
+    "language": "English",
+    "format": "Digital (Online)",
+    "extent": "1 online resource (47 pages)",
+    "isbn13": "9786260172053",
+    "loc_subjects": [
+      "Liechtenstein--Politics and government"
+    ],
+    "lc_classification": "JN2280.K36"
+  },
+  "acquisition": {
+    "initial_offer_date": "2026-09-05",
+    "acceptance_offer_confirmed_date": "2026-09-12",
+    "formats_supplied": [
+      "EPUB",
+      "PDF"
+    ],
+    "files_sent_date": "2026-09-12",
+    "permission_form_returned_date": "2026-09-12",
+    "documentation_confirmed_in_order_date": "2026-09-23",
+    "private_correspondence_retained_by_author": true,
+    "private_correspondence_published": false
+  },
+  "catalogue": {
+    "inclusion": "confirmed",
+    "lccn": "2026441001",
+    "permanent_url": "https://lccn.loc.gov/2026441001",
+    "official_record_url": "https://search.catalog.loc.gov/instances/649b5251-5fe1-4e28-ba28-10b4eaa396a7?option=lccn&query=2026441001",
+    "record_instance_id": "649b5251-5fe1-4e28-ba28-10b4eaa396a7",
+    "access_restrictions": "Restricted online access",
+    "description_source_pdf_viewed_date": "2026-10-27",
+    "original_cataloguing_date": null,
+    "full_text_public_access": false,
+    "full_text_public_access_note": "Not established; LoC catalogue explicitly states restricted online access.",
+    "printed_holdings_established": false
+  },
+  "evidence": {
+    "independent_wayback_url": "https://web.archive.org/web/20261029153528/https://search.catalog.loc.gov/instances/649b5251-5fe1-4e28-ba28-10b4eaa396a7?option=lccn&query=2026441001",
+    "wayback_timestamp_in_url": "20261029153528",
+    "repository_pdf_path": "records/library-of-congress/2026-10-29/2026441001/evidence/catalogue-record.pdf",
+    "repository_pdf_sha256": "311a8e9a22cf88ad998d2c0caedbba0c602cd222f326c36fef606a985f8f7472",
+    "repository_pdf_size_bytes": 134626,
+    "repository_pdf_print_date": "2026-10-30",
+    "capture_manifest": "records/library-of-congress/2026-10-29/2026441001/evidence/capture-manifest.json",
+    "private_correspondence_published": false
+  }
+}
